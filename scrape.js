@@ -13,7 +13,7 @@ url ='https://www.amazon.com.mx/Apple-2022-iPad-Air-Wi-Fi-64-GB/dp/B09V44LVZ6/re
 const product = { name: "", price: "", link: "" };
 
 //create an interval
-const handle = setInterval(scrape, 2000);
+const handle = setInterval(scrape, 21600000);
 //21600000
 
 async function scrape() {
